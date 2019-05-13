@@ -1,0 +1,25 @@
+backend:
+  name: git-gateway
+  branch: master
+
+publish_mode: editorial_workflow
+
+media_folder: "/static/files/"
+public_folder: "/files/"
+
+collections:
+  - name: "index"
+    label: "Index"
+    folder: "src/pages"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Content Type",
+          name: "contentType",
+          widget: "hidden",
+          default: "about",
+        }
+      - { label: "Path", name: "path", widget: "hidden", default: "/" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
