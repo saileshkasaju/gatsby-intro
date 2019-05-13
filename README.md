@@ -32,3 +32,9 @@ For windows users, go through the installation instructions for [cross-env](http
 1. Open http://localhost:8000/
 
 [Course Slides](https://jlengstorf.github.io/presentations/workshop-gatsby-mdx-blog/#/) (hit the right/down arrow keys to progress through the slides)
+
+## gatsby-images checkout
+
+https://using-gatsby-image.gatsbyjs.org/
+https://www.gatsbyjs.org/packages/gatsby-transformer-sqip/
+https://github.com/axe312ger/gatsby-plugin-netlify-cache
